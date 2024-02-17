@@ -2,7 +2,7 @@
 	const messages = ref([
 		{
 			role: 'AI',
-			message: 'Hello! How can I help you?'
+			message: 'Hello! This is GiftedAI. How May I Help You Today?'
 		}
 	]);
 	const loading = ref(false);
@@ -56,9 +56,9 @@
 			href="https://vercel.com/templates/next.js/blob-sveltekit"
 			class="flex justify-center px-10 py-2 mx-auto space-x-1 text-sm font-medium text-center text-gray-600 transition-all rounded-full shadow-sm group bg-white/30 ring-1 ring-gray-900/5 hover:shadow-lg active:shadow-sm"
 		>
-			Deploy your own to Vercel
+			Use for Free without Login. Powered by GiftedTech
 		</a>
-		<h1 class="my-8 text-5xl font-bold text-center text-black">AI Chatbot</h1>
+		<h1 class="my-8 text-5xl font-bold text-center text-black">GiftedAI Chatbot</h1>
 		<div class="max-w-xl mx-auto">
 			<div class="bg-white rounded-md shadow h-[60vh] flex flex-col justify-between">
 				<div class="h-full overflow-auto chat-messages">
@@ -83,7 +83,7 @@
 						<input
 							v-model="message"
 							type="text"
-							placeholder="Type here..."
+							placeholder="Type Your Query Here..."
 							class="w-full p-1 text-sm text-black bg-transparent bg-gray-100 border rounded-md shadow border-white/40 grow"
 						/>
 						<button
@@ -122,14 +122,14 @@
 			<div class="flex items-center justify-center my-2">
 				<span>Built with</span>
 				<a
-					href="https://openai.com/blog/gpt-3-apps"
+					href="https://giftedai.vercel.app"
 					class="flex items-center mx-1 font-medium underline transition-colors underline-offset-4 hover:text-black/70"
 				>
-					<p>gpt-3</p>
+					<p>gpt-4</p>
 				</a>
 				<span>and</span>
 				<a
-					href="https://nuxt.com/docs"
+					href="https://giftedai.vercel.app"
 					class="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
 				>
 					<img src="/nuxt.svg" class="h-6 mx-2" />
@@ -138,11 +138,11 @@
 				.
 			</div>
 			<div class="flex flex-col items-center justify-center">
-				<a href="https://vercel.com">
+				<a href="https://giftedai.vercel.app">
 					<img src="/vercel.svg" alt="Vercel Logo" class="h-4 my-2 text-white" />
 				</a>
 				<a
-					href="https://github.com/StephDietz/nuxt-ai-chat"
+					href="https://github.com/Giftedmaurice/giftedai"
 					class="flex items-center font-medium underline transition-colors underline-offset-4 hover:text-black/70"
 				>
 					<img src="/github.svg" alt="GitHub Logo" class="h-4" />
